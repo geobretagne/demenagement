@@ -6,19 +6,160 @@
         <title>GéoBretagne - migration d'hébergement</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+            html {
+                /* Box model */
+                box-sizing: border-box;
+
+                /* Typo */
+                font-size: 16px;
+            }
+
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+
+            html,
+            body {
+                margin: 0;
+            }
+
+            body {
+                /* Typo */
+                font-family: 'Lato', sans-serif;
+                color: #555;
+            }
+
+            body > header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+            }
+
+            h1, h2 {
+                color: #444;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            h1 {
+                /* Box model */
+                margin: 1rem 0 0;
+
+                /* Typo */
+                font-size: 2.5rem;
+                font-weight: 300;
+            }
+
+            img {
+                border-radius: 50%;
+            }
+
+            main {
+                max-width: 45em;
+                margin: 0 auto;
+                padding: 1rem;
+            }
+
+
+            h2 {
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+            hr {
+                /* Box model */
+                width: 6rem;
+                margin: 3rem 0;
+
+                /* Visual */
+                border: none;
+                border-bottom: 1px solid #ddd;
+            }
+
+            p, ul {
+                font-size: 1.4rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            p + p {
+                margin-top: 0;
+            }
+
+
+            strong {
+                font-weight: 400;
+            }
+
+            a, a:visited {
+                /* Box model */
+                padding-bottom: .2rem;
+
+                /* Typo */
+                color: #67B26F;
+                text-decoration: none;
+
+                /* Visual */
+                border-bottom: 1px solid #ddd;
+                transition: border-bottom-color .2s linear;
+            }
+
+            a:hover {
+                border-bottom-color: #67B26F;
+            }
+
+            ul {
+                /* Box model */
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0 0 1rem;
+
+                /* Visual */
+                list-style-type: none;
+            }
+
+            li:not(:first-child) {
+                padding-left: .8rem;
+            }
+
+            li:not(:last-child):after {
+                /* Box model */
+                content: '•';
+                padding-left: .8rem;
+
+                /* Typo */
+                font-size: .8rem;
+                color: #ddd;
+            }
+        </style>
     </head>
     <body>
         <header>
-		<p><img src="https://framapic.org/2PlzhqMfvatA/lZwEQctosjiW.png" alt="geobretagne.bzh"></p>
-        </header>
+		<img src="https://framapic.org/2PlzhqMfvatA/lZwEQctosjiW.png" alt="geobretagne.bzh">
+		<h1>Migration</h1>
+		</header>
         <main>
-		    <div class="container-lg px-3 my-5 markdown-body">
-				<h1 id="déménagement">Déménagement</h1>
-				<p>Page pour le changement d’hébergement</p>      
-			</div>
+			<p>Page pour le changement d’hébergement</p>      
         </main>
         <footer>
-    
+		<ul>
+			<li>
+			<a href="https://github.com/geobretagne/" title="Github">
+			Github
+			</a>
+			</li>
+			<li>
+			<a href="https://twitter.com/geobretagne" title="Twitter">
+			Twitter
+			</a>
+			</li>
+			</ul>
         </footer>
     </body>
 </html>

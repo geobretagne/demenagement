@@ -21,7 +21,7 @@
 
             html,
             body {
-                margin: 0;
+                margin: 1em;
             }
 
             body {
@@ -56,7 +56,7 @@
             }
 
             main {
-                max-width: 45em;
+                max-width: 60em;
                 margin: 0 auto;
                 padding: 1rem;
             }
@@ -90,8 +90,29 @@
             p + p {
                 margin-top: 0;
             }
-
-
+			.progress-bar {
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-ms-flex-pack: center;
+				justify-content: center;
+				overflow: hidden;
+				color: #fff;
+				text-align: center;
+				white-space: nowrap;
+				background-color: #3D5368;
+				transition: width .6s ease;
+			}
+			.progress {
+				display: -ms-flexbox;
+				display: flex;
+				height: 1rem;
+				overflow: hidden;
+				font-size: .75rem;
+				background-color: #e9ecef;
+				border-radius: .25rem;
+			}
             strong {
                 font-weight: 400;
             }
@@ -148,21 +169,8 @@
 		<section>
 			<header>
 				<h2>Page pour le changement d'hébergeur</h2>
-			</header>
-		<hr>
-		<h3>12 mars 2020 : xxx</h3>
-		<p></p>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit eu elit sagittis egestas vitae pretium lorem. Integer eu nisl eu mauris hendrerit sodales ut sit amet elit. Suspendisse potenti. Praesent nec enim dignissim, consectetur massa in, tristique risus. Fusce in efficitur neque. Integer lobortis mollis pellentesque. Praesent imperdiet consectetur augue at commodo. In volutpat non lectus at tristique. Vivamus tempor turpis sit amet tempus porttitor. Mauris finibus ipsum elementum scelerisque efficitur. Nullam eros erat, feugiat ac ante a, aliquet dapibus risus.
-		</p>
-		<hr>
-		<h3>11 mars 2020 : xxx</h3>
-		<p></p>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit eu elit sagittis egestas vitae pretium lorem. Integer eu nisl eu mauris hendrerit sodales ut sit amet elit. Suspendisse potenti. Praesent nec enim dignissim, consectetur massa in, tristique risus. Fusce in efficitur neque. Integer lobortis mollis pellentesque. Praesent imperdiet consectetur augue at commodo. In volutpat non lectus at tristique. Vivamus tempor turpis sit amet tempus porttitor. Mauris finibus ipsum elementum scelerisque efficitur. Nullam eros erat, feugiat ac ante a, aliquet dapibus risus.
-		</p>
-		<hr>
-		
+				<p> Cette page a pour but de vous renseigner sur l'état d'avancement de la migration de la plateforme GéoBretagne à venir.</p>
+			</header>		
 				<footer>
 				<ul>
 					<li>
@@ -175,6 +183,11 @@
 					Twitter
 					</a>
 					</li>
+					<li>
+					<a href="https:/geobretagne.bzg" title="GéoBretagne">
+					Twitter
+					</a>
+					</li>					
 					</ul>
 				</footer>
 		</section>

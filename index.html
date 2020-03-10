@@ -86,7 +86,9 @@
             p {
                 font-size: 1.4rem;
             }
-
+            .bleu {
+                color: #2ABADE;
+            }
             p + p {
                 margin-top: 0;
             }
@@ -100,6 +102,7 @@
 				overflow: hidden;
 				color: #fff;
 				text-align: center;
+				font-size: 18px;
 				white-space: nowrap;
 				background-color: #3D5368;
 				transition: width .6s ease;
@@ -163,14 +166,24 @@
     <body>
         <header>
 		<img src="https://framapic.org/2PlzhqMfvatA/lZwEQctosjiW.png" alt="geobretagne.bzh">
-		<h1>Migration</h1>
+		<h1>Migration de la plateforme sur un nouvel hébergeur</h1>
 		</header>
 		<main>
 		<section>
 			<header>
-				<h2>Page pour le changement d'hébergeur</h2>
-				<p> Cette page a pour but de vous renseigner sur l'état d'avancement de la migration de la plateforme GéoBretagne à venir. Plus de détails prochainement.</p>
-			</header>		
+				<h2>Etat d'avancement de la migration :</h2>
+			<div class="progress" style="height: 30px;">
+			<div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">0%</div>
+		</div>
+			</header>
+		<hr>
+		<h3 class="bleu">mardi 10 mars 2020 | étape 1 : début de la migration</h3>
+		<p></p>
+		<p>
+			Les machines ont été livrées par le SIB. La migration débute demain, mercredi 11 mars.
+		</p>
+		<hr>
+		
 				<footer>
 				<ul>
 					<li>
@@ -185,9 +198,9 @@
 					</li>
 					<li>
 					<a href="https:/geobretagne.bzg" title="GéoBretagne">
-					Twitter
+					GéoBretagne
 					</a>
-					</li>					
+					</li>
 					</ul>
 				</footer>
 		</section>
